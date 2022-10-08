@@ -1234,7 +1234,7 @@
   #endif
 #endif
 
-#define DEFAULT_EJERK    5  // May be used by Linear Advance
+#define DEFAULT_EJERK    10.0  // May be used by Linear Advance
 
 /**
  * Junction Deviation Factor
@@ -1483,7 +1483,7 @@
  *     O-- FRONT --+
  */
 //#define NOZZLE_TO_PROBE_OFFSET { 10, 10, 0 }
-#define NOZZLE_TO_PROBE_OFFSET { -56, -19, 0 } // This https://www.thingiverse.com/thing:4802905 but my probe can't get vertical so it's biased
+#define NOZZLE_TO_PROBE_OFFSET { -56, -19, -2.24 } // This https://www.thingiverse.com/thing:4802905 but my probe can't get vertical so it's biased
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
